@@ -6,6 +6,7 @@
     :normalizer="normalizer"
     :multiple="multiple"
     :flat="flat"
+    :disabled="isDisabled"
     placeholder="请选择所属机构"
     clear-value-text="清空已选择的数据"
     no-options-text="暂无数据"
@@ -47,6 +48,10 @@ export default {
       default() {
         return () => {}
       }
+    },
+    isDisabled: {
+      type: Boolean,
+      default: false
     }
   },
   data() {

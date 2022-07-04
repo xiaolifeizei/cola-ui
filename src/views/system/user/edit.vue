@@ -32,7 +32,7 @@
         <el-form-item label="所属机构" prop="groupId">
           <group-select :selections.sync="form.groupId" :multiple="true" :flat="true" />
         </el-form-item>
-        <el-form-item label="备注" prop="code">
+        <el-form-item label="备注" prop="remark">
           <el-input v-model="form.remark" autocomplete="off" maxlength="100" />
         </el-form-item>
       </el-form>
