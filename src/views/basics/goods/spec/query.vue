@@ -2,7 +2,7 @@
   <div class="query-content">
     <el-form ref="queryForm" :model="query.data" :inline="true">
       <el-form-item prop="goodsId">
-        <goods-select :goods-id.sync="query.data.goodsId" category-code="INNER,ttt" />
+        <goods-select :goods-id.sync="query.data.goodsId" />
       </el-form-item>
       <el-form-item prop="code">
         <el-input v-model="query.data.name" :clearable="true" placeholder="请输入规格名称" />
