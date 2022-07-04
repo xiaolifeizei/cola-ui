@@ -4,7 +4,7 @@
       <el-form-item prop="goodsId">
         <goods-select :goods-id.sync="query.data.goodsId" />
       </el-form-item>
-      <el-form-item prop="code">
+      <el-form-item prop="name">
         <el-input v-model="query.data.name" :clearable="true" placeholder="请输入规格名称" />
       </el-form-item>
       <el-button type="primary" icon="el-icon-search" @click="doQuery"> 查 询 </el-button>
