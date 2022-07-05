@@ -9,7 +9,7 @@
     :loading="loading"
     loading-text="暂无数据"
     :clearable="true"
-    style="width: 100%;"
+    :style="selectStyle"
     @change="change"
   >
     <el-option
@@ -42,6 +42,10 @@ export default {
       require: false,
       type: String,
       default: null
+    },
+    selectStyle: {
+      type: String,
+      default: 'width: 100%;'
     }
   },
   data() {
