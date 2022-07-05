@@ -16,10 +16,10 @@
           <el-input v-model="form.id" autocomplete="off" :disabled="true" />
         </el-form-item>
         <el-form-item label="字典编码" prop="code">
-          <el-input v-model="form.code" autocomplete="off" :disabled="form.parentId !== 0" maxlength="10" />
+          <el-input v-model="form.code" autocomplete="off" :disabled="form.parentId !== 0" maxlength="30" />
         </el-form-item>
         <el-form-item label="字典名称" prop="name">
-          <el-input v-model="form.name" autocomplete="off" maxlength="10" />
+          <el-input v-model="form.name" autocomplete="off" maxlength="30" />
         </el-form-item>
         <el-form-item label="字典键值" prop="dicValue">
           <el-input v-model="form.dicValue" autocomplete="off" maxlength="10" />
