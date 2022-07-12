@@ -114,8 +114,14 @@ export default {
     change(value) {
       if (value) {
         this.$emit('update:goodsId', value)
+        this.options.forEach(item => {
+          if (item.value === value) {
+            this.$emit('update:goodsName', item.label)
+          }
+        })
       } else {
         this.$emit('update:goodsId', null)
+        this.$emit('update:goodsName', null)
       }
     }
   }
