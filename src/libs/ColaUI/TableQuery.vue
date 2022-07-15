@@ -28,7 +28,4 @@ export default {
   align-items: center;
 }
 
-.table-query-container  /deep/ .el-input {
-  padding-right: 10px;
-}
 </style>
