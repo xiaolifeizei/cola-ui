@@ -41,10 +41,10 @@ module.exports = {
   /**
    * 版权栏文字
    */
-  footerTxt: '© 2022 Cui Feng <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a>',
+  footerTxt: '© 2022 Cola-Admin <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a>',
 
   /**
    * 备案号
    */
-  caseNumber: 'Based On Cola-UI By The Element-UI.'
+  caseNumber: '鲁ICP备2022021758号-2'
 }
